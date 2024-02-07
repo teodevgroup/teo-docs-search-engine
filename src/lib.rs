@@ -35,7 +35,7 @@ static INDEX: Lazy<Index> = Lazy::new(|| {
     let path = current_dir().unwrap();
     let tmp_dir = path.join(".fulltextcache");
     if tmp_dir.exists() {
-        fs::remove_dir(&tmp_dir).unwrap();
+        fs::remove_dir_all(&tmp_dir).unwrap();
     }
     fs::create_dir(&tmp_dir).unwrap();
     let index = Index::create_in_dir(&tmp_dir, SCHEMA.clone()).unwrap();
