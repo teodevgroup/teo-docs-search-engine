@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name = "teocloud_teo_docs_search_engine"
+version = "0.2.1"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "2.15.1", default-features = false, features = ["napi5", "async", "chrono_date", "compat-mode"] }
+napi-derive = "2.15.0"
+
+[build-dependencies]
+napi-build = "2.1.0"
+
+[profile.release]
+lto = true

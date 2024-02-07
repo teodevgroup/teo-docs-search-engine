@@ -1,0 +1,25 @@
+{
+  "name": "@teocloud/teo-docs-search-engine-linux-x64-gnu",
+  "version": "0.2.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "teo.linux-x64-gnu.node",
+  "files": [
+    "teo.linux-x64-gnu.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teocloud/teo-docs-search-engine"
+  }
+}
