@@ -3,6 +3,10 @@
 #[macro_use]
 extern crate napi_derive;
 
+use std::env::current_dir;
+use std::fs;
+use std::path::Path;
+use std::path::PathBuf;
 use std::sync::Arc;
 use std::sync::Mutex;
 use napi::{Error, Result, Status};
@@ -11,7 +15,6 @@ use tantivy::collector::TopDocs;
 use tantivy::query::QueryParser;
 use tantivy::ReloadPolicy;
 use tantivy::{schema::{Schema, STORED, TEXT}, Document, Index, IndexWriter};
-use tempfile::TempDir;
 
 #[napi]
 pub struct Record {
@@ -29,7 +32,11 @@ static SCHEMA: Lazy<Schema> = Lazy::new(|| {
 });
 
 static INDEX: Lazy<Index> = Lazy::new(|| {
-    let tmp_dir = TempDir::new().unwrap();
+    let path = current_dir().unwrap();
+    let tmp_dir = path.join(".fulltextcache");
+    if !tmp_dir.exists() {
+        fs::create_dir(&tmp_dir).unwrap();
+    }
     let index = Index::create_in_dir(&tmp_dir, SCHEMA.clone()).unwrap();
     index
 });
