@@ -5,8 +5,6 @@ extern crate napi_derive;
 
 use std::env::current_dir;
 use std::fs;
-use std::path::Path;
-use std::path::PathBuf;
 use std::sync::Arc;
 use std::sync::Mutex;
 use napi::{Error, Result, Status};
