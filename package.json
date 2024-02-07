@@ -20,7 +20,7 @@
         "universal-apple-darwin",
         "riscv64gc-unknown-linux-gnu"
       ]
-    }
+    } 
   },
   "repository": {
     "type": "git",
