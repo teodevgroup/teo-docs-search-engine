@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "teo.darwin-x64.node",
+  "main": "teo-docs-search-engine.darwin-x64.node",
   "files": [
-    "teo.darwin-x64.node"
+    "teo-docs-search-engine.darwin-x64.node"
   ],
   "license": "Apache-2.0",
   "engines": {

@@ -7,9 +7,9 @@
   "cpu": [
     "ia32"
   ],
-  "main": "teo.win32-ia32-msvc.node",
+  "main": "teo-docs-search-engine.win32-ia32-msvc.node",
   "files": [
-    "teo.win32-ia32-msvc.node"
+    "teo-docs-search-engine.win32-ia32-msvc.node"
   ],
   "license": "Apache-2.0",
   "engines": {

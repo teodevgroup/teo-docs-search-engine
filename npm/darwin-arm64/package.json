@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "teo.darwin-arm64.node",
+  "main": "teo-docs-search-engine.darwin-arm64.node",
   "files": [
-    "teo.darwin-arm64.node"
+    "teo-docs-search-engine.darwin-arm64.node"
   ],
   "license": "Apache-2.0",
   "engines": {

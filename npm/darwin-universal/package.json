@@ -4,9 +4,9 @@
   "os": [
     "darwin"
   ],
-  "main": "teo.darwin-universal.node",
+  "main": "teo-docs-search-engine.darwin-universal.node",
   "files": [
-    "teo.darwin-universal.node"
+    "teo-docs-search-engine.darwin-universal.node"
   ],
   "license": "Apache-2.0",
   "engines": {

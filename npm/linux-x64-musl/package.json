@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "teo.linux-x64-musl.node",
+  "main": "teo-docs-search-engine.linux-x64-musl.node",
   "files": [
-    "teo.linux-x64-musl.node"
+    "teo-docs-search-engine.linux-x64-musl.node"
   ],
   "license": "Apache-2.0",
   "engines": {
