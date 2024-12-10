@@ -5,6 +5,7 @@ extern crate napi_derive;
 
 use std::env::current_dir;
 use std::fs;
+use std::path::Path;
 use once_cell::sync::Lazy;
 use tantivy::collector::TopDocs;
 use tantivy::query::QueryParser;
@@ -33,12 +34,11 @@ pub struct SearchIndex {
 
 impl SearchIndex {
 
-    fn _index() -> Index {
-        let path = current_dir().unwrap();
-        let tmp_dir = path.join(".fulltextcache");
-        if !tmp_dir.exists() {
-            fs::create_dir(&tmp_dir).unwrap();
+    fn _index(tmp_dir: &Path) -> Index {
+        if tmp_dir.exists() {
+            fs::remove_dir_all(&tmp_dir).unwrap();
         }
+        fs::create_dir(&tmp_dir).unwrap();
         Index::create_in_dir(&tmp_dir, SCHEMA.clone()).unwrap()
     }
 
@@ -94,8 +94,8 @@ impl SearchIndex {
 impl SearchIndex {
 
     #[napi(constructor)]
-    pub fn new() -> Self {
-        Self { index: Self::_index() }
+    pub fn new(dir: String) -> Self {
+        Self { index: Self::_index(Path::new(&dir)) }
     }
 
     #[napi]
