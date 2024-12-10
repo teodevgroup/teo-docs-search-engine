@@ -1,0 +1,15 @@
+{
+  "name": "teo-docs-search-engine-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "teo-docs-search-engine.darwin-universal.node",
+  "files": [
+    "teo-docs-search-engine.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

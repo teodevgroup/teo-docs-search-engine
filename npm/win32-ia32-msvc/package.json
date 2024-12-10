@@ -1,0 +1,18 @@
+{
+  "name": "teo-docs-search-engine-win32-ia32-msvc",
+  "version": "0.0.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "ia32"
+  ],
+  "main": "teo-docs-search-engine.win32-ia32-msvc.node",
+  "files": [
+    "teo-docs-search-engine.win32-ia32-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
