@@ -46,22 +46,5 @@
     "test": "ava",
     "universal": "napi universal",
     "version": "napi version"
-  },
-  "optionalDependencies": {
-    "@teodevgroup/teo-docs-search-engine-win32-x64-msvc": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-darwin-x64": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-x64-gnu": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-darwin-arm64": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-android-arm64": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-arm64-gnu": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-arm64-musl": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-win32-arm64-msvc": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-arm-gnueabihf": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-x64-musl": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-freebsd-x64": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-win32-ia32-msvc": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-android-arm-eabi": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-darwin-universal": "0.0.6",
-    "@teodevgroup/teo-docs-search-engine-linux-riscv64-gnu": "0.0.6"
   }
 }
