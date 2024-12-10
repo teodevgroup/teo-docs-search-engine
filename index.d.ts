@@ -8,8 +8,8 @@ export interface Record {
   urlPath: string
   content: string
 }
-export class SearchIndex {
-  constructor()
+export declare class SearchIndex {
+  constructor(dir: string)
   clear(): void
   insert(records: Array<Record>): void
   search(text: string): Array<Record>

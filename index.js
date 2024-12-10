@@ -224,17 +224,32 @@ switch (platform) {
         }
         break
       case 'arm':
-        localFileExisted = existsSync(
-          join(__dirname, 'teo-docs-search-engine.linux-arm-gnueabihf.node')
-        )
-        try {
-          if (localFileExisted) {
-            nativeBinding = require('./teo-docs-search-engine.linux-arm-gnueabihf.node')
-          } else {
-            nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm-gnueabihf')
+        if (isMusl()) {
+          localFileExisted = existsSync(
+            join(__dirname, 'teo-docs-search-engine.linux-arm-musleabihf.node')
+          )
+          try {
+            if (localFileExisted) {
+              nativeBinding = require('./teo-docs-search-engine.linux-arm-musleabihf.node')
+            } else {
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm-musleabihf')
+            }
+          } catch (e) {
+            loadError = e
           }
-        } catch (e) {
-          loadError = e
+        } else {
+          localFileExisted = existsSync(
+            join(__dirname, 'teo-docs-search-engine.linux-arm-gnueabihf.node')
+          )
+          try {
+            if (localFileExisted) {
+              nativeBinding = require('./teo-docs-search-engine.linux-arm-gnueabihf.node')
+            } else {
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm-gnueabihf')
+            }
+          } catch (e) {
+            loadError = e
+          }
         }
         break
       case 'riscv64':

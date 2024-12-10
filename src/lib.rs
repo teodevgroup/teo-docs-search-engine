@@ -3,7 +3,6 @@
 #[macro_use]
 extern crate napi_derive;
 
-use std::env::current_dir;
 use std::fs;
 use std::path::Path;
 use once_cell::sync::Lazy;
