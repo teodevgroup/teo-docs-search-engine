@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.android-arm64.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-android-arm64')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.android-arm-eabi.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-android-arm-eabi')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -69,7 +69,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-win32-x64-msvc')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -83,7 +83,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-win32-ia32-msvc')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,7 +97,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-win32-arm64-msvc')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./teo-docs-search-engine.darwin-universal.node')
       } else {
-        nativeBinding = require('@teocloud/teo-docs-search-engine-darwin-universal')
+        nativeBinding = require('@teodevgroup/teo-docs-search-engine-darwin-universal')
       }
       break
     } catch {}
@@ -124,7 +124,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.darwin-x64.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-darwin-x64')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -138,7 +138,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.darwin-arm64.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-darwin-arm64')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -157,7 +157,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./teo-docs-search-engine.freebsd-x64.node')
       } else {
-        nativeBinding = require('@teocloud/teo-docs-search-engine-freebsd-x64')
+        nativeBinding = require('@teodevgroup/teo-docs-search-engine-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-x64-musl.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-x64-musl')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-x64-gnu')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -203,7 +203,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-arm64-musl')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-arm64-gnu')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -231,7 +231,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-linux-arm-gnueabihf')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
@@ -246,7 +246,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-riscv64-musl.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-riscv64-musl')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-riscv64-musl')
             }
           } catch (e) {
             loadError = e
@@ -259,7 +259,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./teo-docs-search-engine.linux-riscv64-gnu.node')
             } else {
-              nativeBinding = require('@teocloud/teo-docs-search-engine-linux-riscv64-gnu')
+              nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-riscv64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -274,7 +274,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./teo-docs-search-engine.linux-s390x-gnu.node')
           } else {
-            nativeBinding = require('@teocloud/teo-docs-search-engine-linux-s390x-gnu')
+            nativeBinding = require('@teodevgroup/teo-docs-search-engine-linux-s390x-gnu')
           }
         } catch (e) {
           loadError = e
@@ -295,9 +295,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { Record, buildInsertRecord, buildCommit, search } = nativeBinding
+const { SearchIndex } = nativeBinding
 
-module.exports.Record = Record
-module.exports.buildInsertRecord = buildInsertRecord
-module.exports.buildCommit = buildCommit
-module.exports.search = search
+module.exports.SearchIndex = SearchIndex

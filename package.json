@@ -1,6 +1,6 @@
 {
-  "name": "@teocloud/teo-docs-search-engine",
-  "version": "0.0.5",
+  "name": "@teodevgroup/teo-docs-search-engine",
+  "version": "0.0.6",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teocloud/teo-docs-search-engine"
+    "url": "https://github.com/teodevgroup/teo-docs-search-engine"
   },
   "license": "Apache-2.0",
   "dependencies": { },

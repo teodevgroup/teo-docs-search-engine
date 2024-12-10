@@ -6,5 +6,5 @@ The full text search engine for TEO Docs.
 ## Installation
 
 ```sh
-npm install @teocloud/teo-docs-search-engine
+npm install @teodevgroup/teo-docs-search-engine
 ```
