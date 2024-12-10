@@ -1,5 +1,5 @@
 {
-  "name": "teo-docs-search-engine-darwin-arm64",
+  "name": "@teodevgroup/teo-docs-search-engine-darwin-arm64",
   "version": "0.0.0",
   "os": [
     "darwin"

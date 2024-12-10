@@ -1,5 +1,5 @@
 {
-  "name": "teo-docs-search-engine-linux-arm-musleabihf",
+  "name": "@teodevgroup/teo-docs-search-engine-linux-arm-musleabihf",
   "version": "0.0.0",
   "os": [
     "linux"

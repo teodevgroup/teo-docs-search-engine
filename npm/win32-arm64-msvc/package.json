@@ -1,5 +1,5 @@
 {
-  "name": "teo-docs-search-engine-win32-arm64-msvc",
+  "name": "@teodevgroup/teo-docs-search-engine-win32-arm64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"

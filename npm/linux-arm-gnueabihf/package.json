@@ -1,5 +1,5 @@
 {
-  "name": "teo-docs-search-engine-linux-arm-gnueabihf",
+  "name": "@teodevgroup/teo-docs-search-engine-linux-arm-gnueabihf",
   "version": "0.0.0",
   "os": [
     "linux"
