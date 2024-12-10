@@ -29,7 +29,7 @@
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
-    "@napi-rs/cli": "^2.14.8",
+    "@napi-rs/cli": "^2.18.4",
     "ava": "^5.1.1"
   },
   "ava": {
